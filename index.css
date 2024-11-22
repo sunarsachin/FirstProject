@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: "Poppins",sans-serif;
+  font-style: normal;
+  font-size: 16px;
+}
+
+header .logo-content{
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+header nav{
+  font-family: "Poppins",sans-serif;
+
+}
+  
+
+
+header{
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+ ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+ul li a{
+  padding: 0 20px;
+  text-decoration: none;
+  color: #3f3f3f;
+  display: inline-block;
+}
+
+ul li a::after{
+  content: '';
+  display: block;
+  height: 4px;
+  width: 0%;
+  background:#c4c4f7;
+  transition:all 0.5s;
+}
+
+.singup-btn a::after{
+  content: '';
+  display: block;
+  height: 4px;
+  width: 0%;
+  background: #fff;
+  transition:all 0.5s;
+}
+.singup-btn a:hover::after{
+   width: 100%;
+}
+ul li a:hover::after{
+   width: 100%;
+}
+
+.singup-btn {
+  height: 40px;
+  align-items: center;
+  background-color: #c4c4f7;
+  font-weight: 700;
+  border-style: none;  
+  border-radius: 30px;
+}
+
+.singup-btn a{
+
+  padding: 10px 20px 10px 20px ;
+  color: aliceblue;
+}
+ main{
+  display: flex;
+  height: calc(100vh-100px);
+  align-items: center;
+  justify-content: center;
+ }
+
+ .hero-img{
+  max-width: 700px;
+  height: auto;
+  margin-top: 60px;
+  margin-left: 60px;
+ }
+
+
+ .left-content{
+  width: 30%;
+ }
+
+
+ .left-content h1{
+  text-transform: uppercase;
+  font-size: 3rem;
+ }
+ .left-content h2{
+  font-size: 1.7rem;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+   color: #fCA70C;
+ }
+
+ .left-content p{
+  font-size: 0.9rem;
+  margin: 30px 0px;
+  line-height: 30px;
+
+ }
+
+.button{
+  padding: 15px 30px;
+  background-color: #c4c4f7;
+  border-style: none;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+.service-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.service-title p{
+  font-size: 0.9rem;
+  color: #3f3f3f;
+}
+
+.service-title h1{
+  font-size: 1.7rem;
+  color: #3f3f3f;
+}
+
+.service-img img{
+  max-width: 300px;
+  height: auto;
+  border-radius: 265px;
+}
+
+.service-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 200px ;
+  background-image: linear-gradient(to right, #c4c4f7, rgba(250, 0, 0,0));
+  padding: 25px 25px 25px 25px;
+   border-radius: 265px;
+}
+
+.content h2 {
+  margin: 20px 0px;
+  color: #3f3f3f;
+}
+
+.content p {
+  line-height: 25px;
+  color: #3f3f3f;
+ 
+}
+
+.learn-button{
+  margin: 30px 0px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: rgb(89, 6, 157);
+  border-radius: 10px;
+  border-style: none;
+  font-weight: 700;
+}
+
