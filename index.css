@@ -136,21 +136,23 @@ ul li a:hover::after{
 
 
 .service-title{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   margin: 50px;
 }
 
 .service-title p{
   font-size: 0.9rem;
   color: #3f3f3f;
+  text-align: center;
 }
 
 .service-title h1{
   font-size: 1.7rem;
   color: #3f3f3f;
+  text-align: center;
 }
 
 .service-img img{
